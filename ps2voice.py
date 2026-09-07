@@ -1,0 +1,8 @@
+import pyttsx3
+
+try:
+    engine = pyttsx3.init()
+    engine.say("hello rachna this is a voice assistant")
+    engine.runAndWait()
+except Exception as e:
+    print(f"Speech synthesis error: {e}")
