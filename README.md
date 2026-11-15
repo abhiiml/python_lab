@@ -51,6 +51,11 @@ A complete collection of Python lab assignments, chapter exercises, and problem-
 | [`q14_dict_lambda.py`](assignments/q14_dict_lambda.py) | **Q14:** Nested student dictionary operations with lambda sorting, max, and filter. |
 | [`q15_string_operations.py`](assignments/q15_string_operations.py) | **Q15:** String methods, slicing, substring search, insertion, and character counts. |
 | [`numpy_2d_array.py`](assignments/numpy_2d_array.py) | **NumPy 2D Array:** Matrix operations, min/max, column-wise means, and conditional updates. |
+| [`q29_employee_dataframe.py`](assignments/q29_employee_dataframe.py) | **Q29:** Employee DataFrame from a dictionary; first/last records and maximum salary. |
+| [`q30_student_dataframe.py`](assignments/q30_student_dataframe.py) | **Q30:** Student DataFrame with null-value detection, fill, drop, and update. |
+| [`q31_titanic_analysis.py`](assignments/q31_titanic_analysis.py) | **Q31:** Titanic dataset cleaning, filtering, describe, dedupe, and a new column. |
+| [`q32_melt_wide_to_long.py`](assignments/q32_melt_wide_to_long.py) | **Q32:** Reshape an employee contact table from wide to long with `melt()`. |
+| [`q33_stack_vs_unstack.py`](assignments/q33_stack_vs_unstack.py) | **Q33:** Difference between `stack()` and `unstack()` on a marks DataFrame. |
 
 ---
 
@@ -59,6 +64,7 @@ A complete collection of Python lab assignments, chapter exercises, and problem-
 ### Prerequisites
 - Python 3.8 or higher
 - NumPy (`pip install numpy`)
+- Pandas (`pip install pandas`) — required for Q29–Q33. Place `titanic.csv` in the working directory before running Q31.
 - PyTTSx3 (optional, for voice assistant: `pip install pyttsx3`)
 
 ### Execution
